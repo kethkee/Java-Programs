@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Exception
+public class ExcptHand
 {
 	public static void main(String[] args)
 	{
@@ -7,9 +7,10 @@ public class Exception
 		char c = 'y';
 		do
 		{
+			System.out.println("Enter your choice:");
 			System.out.println("1.Arithmetic operation"); 
 			System.out.println("2.Array access");
-			System.out.println("Enter your choice:");
+			
 			int choice = sc.nextInt();
 			switch(choice)
 			{
